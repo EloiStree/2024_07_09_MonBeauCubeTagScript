@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.monbeaucubetagscriptEditor",          
+    "references": ["be.eloistree.monbeaucubetagscript"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

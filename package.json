@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.monbeaucubetagscript",                              
+  "displayName": "Mon Beau Cube Tag Script",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Allows to tag cube with some script to be able to load them from resource.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_07_09_MonBeauCubeTagScript.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
