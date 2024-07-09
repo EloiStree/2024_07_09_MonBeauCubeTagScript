@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 252827135009651080}
   - component: {fileID: 6548152759194967935}
   - component: {fileID: 4042182348776706524}
+  - component: {fileID: 905873052933845746}
   m_Layer: 0
   m_Name: Displayer Per Name
   m_TagString: Untagged
@@ -71,3 +72,45 @@ MonoBehaviour:
   - m_name: teaching eloi
     m_cubes:
     - {fileID: 5992429172747757845, guid: 0ba1bf29d567b7f42b20c94d2b0109a7, type: 3}
+--- !u!114 &905873052933845746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3259655947994323483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052a32eefccf7df49a6709886c80a2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onAwake:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4042182348776706524}
+        m_TargetAssemblyTypeName: CubeTagInResourcesMono, be.eloistree.monbeaucubetagscript
+        m_MethodName: LoadResources
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6548152759194967935}
+        m_TargetAssemblyTypeName: CubeTagScriptPerNameInLineDisplayerMono, be.eloistree.monbeaucubetagscript
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onStart:
+    m_PersistentCalls:
+      m_Calls: []
